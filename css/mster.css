@@ -146,12 +146,12 @@ z-index: 998;
 
 
 #etape01 {
-
+background: rgba(225, 225, 225, 0.5)
   min-height: 60vh;
-  background: #000 url('images/bg_12.jpeg')  ;
+  background: #000 url('images/bg_14.jpg')  ;
   overflow: hidden;
   padding: 6px;
-  color: white;
+  color: black;
 }
 #etape01 .main-content {
   display: flex;
@@ -161,7 +161,7 @@ z-index: 998;
 }
 
 #etape01 .text-content {
-
+  background: rgba(128, 0, 0, 0.5);
   padding: 42px;
   margin: 6px;
 /*  max-width: 620px; */
@@ -183,6 +183,10 @@ z-index: 998;
 #etape01 figure img {
   width : 100%;
   border : 4px solid #000;
+}
+
+#etape01 h2 {
+
 }
 
 
